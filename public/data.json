@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Dental Fillings",
+    "details": "Dental fillings are a common dental procedure used to repair cavities and restore damaged teeth. Our experienced dental team utilizes the latest techniques and high-quality composite materials to ensure your fillings are durable and aesthetically pleasing. We take pride in preserving the natural appearance and function of your teeth, providing you with a comfortable and lasting solution.",
+    "img": "fillings.jpg",
+    "price": 80.0
+  },
+  {
+    "id": 2,
+    "title": "Teeth Braces",
+    "details": "Teeth braces are a transformation solution for correcting misaligned teeth and achieving a beautiful, straight smile. Our orthodontic specialists offer a range of options, including traditional metal braces, clear braces, and Invisalign, tailored to your individual needs. With personalized treatment plans and expert care, we are dedicated to helping you achieve the smile you've always desired.",
+    "img": "braces.jpg",
+    "price": 2500.0
+  },
+  {
+    "id": 3,
+    "title": "Dental Implants",
+    "details": "Dental implants are the gold standard for replacing missing teeth. Our board-certified implantologists provide precise and minimally invasive implant placement procedures. We use state-of-the-art technology and the highest quality materials to ensure your dental implants look, feel, and function just like natural teeth. Regain your confidence and enjoy a strong, permanent solution to tooth loss.",
+    "img": "implants.jpg",
+    "price": 1500.0
+  },
+  {
+    "id": 4,
+    "title": "Teeth Whitening",
+    "details": "Our professional teeth whitening treatments are designed to brighten your smile and boost your self-confidence. Using safe and effective whitening techniques, our experienced dental team can remove stubborn stains and discoloration, leaving your teeth several shades lighter. Say goodbye to yellowed teeth and hello to a dazzling, radiant smile.",
+    "img": "whitening.jpg",
+    "price": 120.0
+  },
+  {
+    "id": 5,
+    "title": "Teeth Cleaning",
+    "details": "Regular teeth cleaning is the foundation of good oral health. Our highly skilled dental hygienists perform thorough cleanings to remove plaque, tartar, and bacteria from your teeth and gums. By scheduling routine cleanings, you can prevent gum disease, cavities, and other dental issues, ensuring a lifetime of healthy smiles.",
+    "img": "cleaning.jpg",
+    "price": 60.0
+  },
+  {
+    "id": 6,
+    "title": "Tooth Extraction",
+    "details": "Tooth extraction may become necessary for various reasons, such as severe damage, infection, or impacted wisdom teeth. Our compassionate dental team uses gentle and minimally invasive techniques to ensure your comfort during the extraction process. We prioritize your oral health and well-being throughout the procedure.",
+    "img": "extraction.jpg",
+    "price": 100.0
+  },
+  {
+    "id": 7,
+    "title": "Orthodontics",
+    "details": "Orthodontic treatments can correct misaligned teeth, bite issues, and improve overall oral health. Our orthodontists offer a range of options, including traditional braces and Invisalign. With personalized treatment plans, we work with you to achieve a beautifully aligned smile, enhanced function, and increased confidence.",
+    "img": "orthodontics.jpg",
+    "price": 3000.0
+  },
+  {
+    "id": 8,
+    "title": "Dental Medicine",
+    "details": "Our dental medicine services encompass a wide range of treatments, including pain management, oral disease diagnosis, and preventive care. We are committed to providing you with comprehensive care, ensuring your comfort, and addressing any oral health concerns you may have.",
+    "img": "medicine.jpg",
+    "price": 25.0
+  },
+  {
+    "id": 9,
+    "title": "Routine Dental Checkup",
+    "details": "Regular dental checkups are a cornerstone of maintaining optimal oral health. During your routine checkup, our experienced dentists will conduct a thorough examination, clean your teeth, and address any concerns you may have. We emphasize preventive care to catch and address issues early, helping you maintain a healthy and beautiful smile for years to come.",
+    "img": "checkup.jpg",
+    "price": 50.0
+  }
+]
