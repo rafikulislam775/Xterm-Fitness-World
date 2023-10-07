@@ -54,7 +54,12 @@ const Navbar = () => {
               {menus}
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <img
+            className="w-5 md:w-10"
+            src="https://i.ibb.co/HGTdvg2/logo1.png"
+            alt=""
+          />
+          {/* <a className="btn btn-ghost normal-case text-xl">daisyUI</a> */}
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{menus}</ul>
