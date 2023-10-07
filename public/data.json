@@ -1,65 +1,74 @@
 [
   {
     "id": 1,
-    "title": "Dental Fillings",
-    "details": "Dental fillings are a common dental procedure used to repair cavities and restore damaged teeth. Our experienced dental team utilizes the latest techniques and high-quality composite materials to ensure your fillings are durable and aesthetically pleasing. We take pride in preserving the natural appearance and function of your teeth, providing you with a comfortable and lasting solution.",
-    "img": "fillings.jpg",
-    "price": 80.0
+    "title": "Personal Training",
+    "img": "personal_training.jpg",
+    "price": "$50 per session",
+    "details": "One-on-one personalized fitness training tailored to your goals.",
+    "more_details": "Our certified trainers will work with you to create a custom workout plan and provide guidance and motivation."
   },
   {
     "id": 2,
-    "title": "Teeth Braces",
-    "details": "Teeth braces are a transformation solution for correcting misaligned teeth and achieving a beautiful, straight smile. Our orthodontic specialists offer a range of options, including traditional metal braces, clear braces, and Invisalign, tailored to your individual needs. With personalized treatment plans and expert care, we are dedicated to helping you achieve the smile you've always desired.",
-    "img": "braces.jpg",
-    "price": 2500.0
+    "title": "Group Fitness Classes",
+    "img": "group_fitness.jpg",
+    "price": "$20 per class",
+    "details": "Join our energetic group fitness classes for a fun and effective workout.",
+    "more_details": "Choose from a variety of classes including HIT, yoga, spin, and more. All fitness levels welcome!"
   },
   {
     "id": 3,
-    "title": "Dental Implants",
-    "details": "Dental implants are the gold standard for replacing missing teeth. Our board-certified implantologists provide precise and minimally invasive implant placement procedures. We use state-of-the-art technology and the highest quality materials to ensure your dental implants look, feel, and function just like natural teeth. Regain your confidence and enjoy a strong, permanent solution to tooth loss.",
-    "img": "implants.jpg",
-    "price": 1500.0
+    "title": "Nutritional Counseling",
+    "img": "nutritional_counseling.jpg",
+    "price": "$75 per session",
+    "details": "Get expert advice on nutrition and meal planning to support your fitness goals.",
+    "more_details": "Our nutritionists will help you make healthy food choices and create a balanced diet for long-term success."
   },
   {
     "id": 4,
-    "title": "Teeth Whitening",
-    "details": "Our professional teeth whitening treatments are designed to brighten your smile and boost your self-confidence. Using safe and effective whitening techniques, our experienced dental team can remove stubborn stains and discoloration, leaving your teeth several shades lighter. Say goodbye to yellowed teeth and hello to a dazzling, radiant smile.",
-    "img": "whitening.jpg",
-    "price": 120.0
+    "title": "Cardiovascular Training",
+    "img": "cardio_training.jpg",
+    "price": "$30 per session",
+    "details": "Improve your cardiovascular health with specialized training sessions.",
+    "more_details": "Our trainers will guide you through heart-pumping workouts to enhance endurance and stamina."
   },
   {
     "id": 5,
-    "title": "Teeth Cleaning",
-    "details": "Regular teeth cleaning is the foundation of good oral health. Our highly skilled dental hygienists perform thorough cleanings to remove plaque, tartar, and bacteria from your teeth and gums. By scheduling routine cleanings, you can prevent gum disease, cavities, and other dental issues, ensuring a lifetime of healthy smiles.",
-    "img": "cleaning.jpg",
-    "price": 60.0
+    "title": "Strength and Conditioning",
+    "img": "strength_conditioning.jpg",
+    "price": "$45 per session",
+    "details": "Build muscle and increase overall strength with personalized conditioning programs.",
+    "more_details": "We focus on proper form and technique to help you achieve your strength and physique goals."
   },
   {
     "id": 6,
-    "title": "Tooth Extraction",
-    "details": "Tooth extraction may become necessary for various reasons, such as severe damage, infection, or impacted wisdom teeth. Our compassionate dental team uses gentle and minimally invasive techniques to ensure your comfort during the extraction process. We prioritize your oral health and well-being throughout the procedure.",
-    "img": "extraction.jpg",
-    "price": 100.0
+    "title": "Weight Loss Programs",
+    "img": "weight_loss.jpg",
+    "price": "$60 per session",
+    "details": "Lose weight safely and effectively with our tailored weight loss programs.",
+    "more_details": "Our experts will assist you in setting achievable weight loss goals and provide ongoing support."
   },
   {
     "id": 7,
-    "title": "Orthodontics",
-    "details": "Orthodontic treatments can correct misaligned teeth, bite issues, and improve overall oral health. Our orthodontists offer a range of options, including traditional braces and Invisalign. With personalized treatment plans, we work with you to achieve a beautifully aligned smile, enhanced function, and increased confidence.",
-    "img": "orthodontics.jpg",
-    "price": 3000.0
+    "title": "Functional Fitness",
+    "img": "functional_fitness.jpg",
+    "price": "$40 per session",
+    "details": "Enhance your daily life functionality with functional fitness training.",
+    "more_details": "We focus on exercises that improve your ability to perform everyday tasks with ease."
   },
   {
     "id": 8,
-    "title": "Dental Medicine",
-    "details": "Our dental medicine services encompass a wide range of treatments, including pain management, oral disease diagnosis, and preventive care. We are committed to providing you with comprehensive care, ensuring your comfort, and addressing any oral health concerns you may have.",
-    "img": "medicine.jpg",
-    "price": 25.0
+    "title": "Flexibility and Mobility",
+    "img": "flexibility_mobility.jpg",
+    "price": "$25 per session",
+    "details": "Increase flexibility and mobility to prevent injuries and improve performance.",
+    "more_details": "Our trainers will guide you through stretches and exercises to enhance your range of motion."
   },
   {
     "id": 9,
-    "title": "Routine Dental Checkup",
-    "details": "Regular dental checkups are a cornerstone of maintaining optimal oral health. During your routine checkup, our experienced dentists will conduct a thorough examination, clean your teeth, and address any concerns you may have. We emphasize preventive care to catch and address issues early, helping you maintain a healthy and beautiful smile for years to come.",
-    "img": "checkup.jpg",
-    "price": 50.0
+    "title": "Mindfulness and Meditation",
+    "img": "mindfulness_meditation.jpg",
+    "price": "$15 per session",
+    "details": "Achieve mental clarity and relaxation with mindfulness and meditation sessions.",
+    "more_details": "Learn techniques to reduce stress, improve focus, and promote overall well-being."
   }
 ]
