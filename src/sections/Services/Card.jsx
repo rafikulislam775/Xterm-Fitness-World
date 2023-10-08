@@ -1,6 +1,6 @@
-import React from "react";
 import { Link } from "react-router-dom";
-
+import PropTypes from "prop-types";
+import { AiOutlineArrowRight } from "react-icons/ai";
 const Card = ({ data }) => {
   const { img, eventName, shortDescription, price, id } = data;
   return (
@@ -22,21 +22,7 @@ const Card = ({ data }) => {
             <div className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white border  hover:bg-cyan-500 rounded-lg">
               <Link to={`/details/${id}`}>Details</Link>
 
-              <svg
-                className="w-3.5 h-3.5 ml-2"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 14 10"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M1 5h12m0 0L9 1m4 4L9 9"
-                />
-              </svg>
+              <AiOutlineArrowRight className="text-2xl"></AiOutlineArrowRight>
             </div>
             <div className="badge badge-info badge-lg p-5">{price}</div>
           </div>
@@ -45,5 +31,7 @@ const Card = ({ data }) => {
     </div>
   );
 };
-
+Card.propTypes = {
+  data: PropTypes.object,
+};
 export default Card;
