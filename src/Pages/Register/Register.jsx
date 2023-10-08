@@ -1,12 +1,18 @@
 import { NavLink } from "react-router-dom";
+import useAuth from "../../Hooks/useAuth";
 
 const Register = () => {
+  //call custom hook
+  const { createUsers } = useAuth();
   const handleRegister = (e) => {
     e.preventDefault();
-    const name = e.target.name.value;
-    const email = e.target.email.value;
-    const password = e.target.password.value;
-    console.log(name, email, password);
+    // const name = e.target.name.value;
+    const email = e?.target.email.value;
+    const password = e?.target.password.value;
+    createUsers(email, password)
+      .then((res) => console.log(res?.user))
+      .catch((error) => console.error(error?.message));
+    console.log(email, password);
   };
 
   return (
@@ -36,7 +42,7 @@ const Register = () => {
                 <input
                   type="text"
                   placeholder="Your name"
-                  className="input input-bordered"
+                  className="input "
                   name="name"
                   required
                 />
@@ -48,7 +54,7 @@ const Register = () => {
                 <input
                   type="email"
                   placeholder="email"
-                  className="input input-bordered"
+                  className="input "
                   name="email"
                   required
                 />
@@ -60,7 +66,7 @@ const Register = () => {
                 <input
                   type="password"
                   placeholder="password"
-                  className="input input-bordered"
+                  className="input "
                   name="password"
                   required
                 />

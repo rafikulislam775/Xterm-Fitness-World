@@ -1,10 +1,19 @@
 import { NavLink } from "react-router-dom";
+import { AuthContext } from "../../Routers/AuthProvider/AuthProvider";
+import { useContext } from "react";
 
 const Navbar = () => {
+  const { user, logOut } = useContext(AuthContext);
+  const handleSignOut = () => {
+    logOut()
+      .then((res) => console.log("Sign-out successful.", res.user))
+      .catch((err) => console.error("Sign-out failed.", err));
+  };
+
   const menus = (
     <>
       <li>
-        <NavLink to="">Home</NavLink>
+        <NavLink to="/">Home</NavLink>
       </li>
       <li>
         <NavLink to="/services">Services</NavLink>
@@ -28,7 +37,7 @@ const Navbar = () => {
   );
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-gray-800  border-b  text-white">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -54,11 +63,13 @@ const Navbar = () => {
               {menus}
             </ul>
           </div>
+
           <img
             className="w-5 md:w-10"
             src="https://i.ibb.co/HGTdvg2/logo1.png"
             alt=""
           />
+          <p className="ml-2"> Xterm Fitness World</p>
           {/* <a className="btn btn-ghost normal-case text-xl">daisyUI</a> */}
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -66,7 +77,11 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <button className="btn ">
-            <NavLink to="/login">Login</NavLink>
+            {user ? (
+              <p onClick={handleSignOut}>logout</p>
+            ) : (
+              <NavLink to="/login">Login</NavLink>
+            )}
           </button>
         </div>
       </div>

@@ -1,13 +1,19 @@
 import { NavLink } from "react-router-dom";
+import useAuth from "../../Hooks/useAuth";
 
 const Login = () => {
+  const { userLogin, user } = useAuth();
   const handleLogin = (e) => {
     e.preventDefault();
 
-    const email = e.target.email.value;
-    const password = e.target.password.value;
+    const email = e?.target.email.value;
+    const password = e?.target.password.value;
+    userLogin(email, password)
+      .then((res) => console.log(res?.user))
+      .catch((error) => console.error(error?.message));
     console.log(email, password);
   };
+  console.log(user);
   return (
     <div>
       <div
@@ -19,7 +25,7 @@ const Login = () => {
         }}
       >
         <div className="hero-content   flex-col lg:flex-row">
-          <div className="text-center md:ml-48  lg:text-left">
+          <div className="text-center text-white md:ml-48  lg:text-left">
             <h1 className="text-5xl font-bold"> Login now!</h1>
             <p className="py-6 text-lg">
               Our trainers will guide you through heart-pumping workouts to
@@ -51,16 +57,21 @@ const Login = () => {
                   name="password"
                   required
                 />
-                <label className="label">
+                {/* <label className="label">
                   <a href="#" className="label-text-alt link link-hover">
                     Forgot password?
                   </a>
-                </label>
+                </label> */}
               </div>
               <div className="form-control mt-6">
-                <button className="btn hover:btn-info ">Login</button>
+                {user ? (
+                  <button className="btn hover:btn-info ">Logout</button>
+                ) : (
+                  <button className="btn hover:btn-info ">login</button>
+                )}
+
                 <p className="text-sm my-4   font-light text-gray-500 dark:text-gray-400">
-                  Don't have an account yet ?{" "}
+                  you have no account yet ?{" "}
                   <NavLink
                     to="/register"
                     className="font-medium text-blue-600 underline dark:text-primary-500"

@@ -1,74 +1,74 @@
 [
   {
     "id": 1,
-    "title": "Personal Training",
-    "img": "personal_training.jpg",
-    "price": "$50 per session",
-    "details": "One-on-one personalized fitness training tailored to your goals.",
-    "more_details": "Our certified trainers will work with you to create a custom workout plan and provide guidance and motivation."
+    "eventName": "Health Fair 2023",
+    "img": "https://i.ibb.co/W6TPc0c/Health-Fair-logo.jpg",
+    "price": "Free Admission",
+    "shortDescription": "Join us at the Health Fair 2023 for a day of wellness and education.",
+    "detailedDescription": "The Health Fair 2023 is a community event dedicated to promoting health and wellness. Explore booths featuring health screenings, nutrition advice, fitness demonstrations, and more. Attend informative seminars and connect with healthcare professionals. Don't miss this opportunity to prioritize your health and well-being."
   },
   {
     "id": 2,
-    "title": "Group Fitness Classes",
-    "img": "group_fitness.jpg",
-    "price": "$20 per class",
-    "details": "Join our energetic group fitness classes for a fun and effective workout.",
-    "more_details": "Choose from a variety of classes including HIT, yoga, spin, and more. All fitness levels welcome!"
+    "eventName": "Yoga and Fitness Retreat",
+    "img": "https://i.ibb.co/bPdTwtN/Yoga.jpg",
+    "price": "$500 for 3 Days",
+    "shortDescription": "Escape to a serene retreat for yoga, fitness, and rejuvenation.",
+    "detailedDescription": "Embark on a transformative journey at our Yoga and Fitness Retreat. Immerse yourself in daily yoga and meditation sessions, outdoor fitness activities, and nourishing meals. Reconnect with nature and find inner peace. This retreat is designed to enhance your physical and mental well-being while providing a break from the hustle and bustle of daily life."
   },
   {
     "id": 3,
-    "title": "Nutritional Counseling",
-    "img": "nutritional_counseling.jpg",
-    "price": "$75 per session",
-    "details": "Get expert advice on nutrition and meal planning to support your fitness goals.",
-    "more_details": "Our nutritionists will help you make healthy food choices and create a balanced diet for long-term success."
+    "eventName": "Wellness Expo 2023",
+    "img": "https://i.ibb.co/jkp6m5q/Wellness-Expo.jpg",
+    "price": "$25 Admission",
+    "shortDescription": "Discover the latest trends in wellness at Wellness Expo 2023.",
+    "detailedDescription": "Wellness Expo 2023 is your gateway to the latest trends in health and wellness. Explore a wide range of exhibitors showcasing products and services for a healthy lifestyle. Attend workshops, yoga classes, and engage with wellness experts. Whether you're looking for nutrition advice, fitness gear, or holistic therapies, this expo has it all."
   },
   {
     "id": 4,
-    "title": "Cardiovascular Training",
-    "img": "cardio_training.jpg",
-    "price": "$30 per session",
-    "details": "Improve your cardiovascular health with specialized training sessions.",
-    "more_details": "Our trainers will guide you through heart-pumping workouts to enhance endurance and stamina."
+    "eventName": "Fitness Bootcamp",
+    "img": "https://i.ibb.co/TkrZKTG/Fitness-Bootcamp.jpg",
+    "price": "$199 for 4 Weeks",
+    "shortDescription": "Transform your fitness with our intensive Fitness Bootcamp.",
+    "detailedDescription": "Join our Fitness Bootcamp and kickstart your fitness journey. This intensive 4-week program includes high-intensity workouts, personalized coaching, and nutritional guidance. Whether you want to lose weight, build strength, or improve endurance, our Bootcamp will challenge you and help you achieve your goals."
   },
   {
     "id": 5,
-    "title": "Strength and Conditioning",
-    "img": "strength_conditioning.jpg",
-    "price": "$45 per session",
-    "details": "Build muscle and increase overall strength with personalized conditioning programs.",
-    "more_details": "We focus on proper form and technique to help you achieve your strength and physique goals."
+    "eventName": "Meditation and Mindfulness Workshop",
+    "img": "https://i.ibb.co/tsKjB9h/meditation.jpg",
+    "price": "$50 per Session",
+    "shortDescription": "Calm your mind and reduce stress with our Meditation Workshop.",
+    "detailedDescription": "Experience inner peace and reduce stress with our Meditation and Mindfulness Workshop. Learn various meditation techniques, breathing exercises, and mindfulness practices. These sessions are designed to help you achieve mental clarity, improve focus, and promote overall well-being. Join us on a journey to a more balanced and mindful life."
   },
   {
     "id": 6,
-    "title": "Weight Loss Programs",
-    "img": "weight_loss.jpg",
-    "price": "$60 per session",
-    "details": "Lose weight safely and effectively with our tailored weight loss programs.",
-    "more_details": "Our experts will assist you in setting achievable weight loss goals and provide ongoing support."
+    "eventName": "Nutrition and Cooking Class",
+    "img": "https://i.ibb.co/Hxb93Dt/cooking-class.jpg",
+    "price": "$75 per Session",
+    "shortDescription": "Learn to cook delicious and nutritious meals in our cooking class.",
+    "detailedDescription": "Discover the joy of healthy eating in our Nutrition and Cooking Class. Our expert chefs and nutritionists will guide you through preparing delicious and nutritious meals. You'll learn about the benefits of various ingredients and cooking techniques that support your well-being. Join us and elevate your culinary skills."
   },
   {
     "id": 7,
-    "title": "Functional Fitness",
-    "img": "functional_fitness.jpg",
-    "price": "$40 per session",
-    "details": "Enhance your daily life functionality with functional fitness training.",
-    "more_details": "We focus on exercises that improve your ability to perform everyday tasks with ease."
+    "eventName": "Wellness Retreat Weekend",
+    "img": "https://i.ibb.co/Yj9SM5K/Wellness-Retreat-Weekend.jpg",
+    "price": "$599 for 2 Nights",
+    "shortDescription": "Recharge your body and mind at our Wellness Retreat Weekend.",
+    "detailedDescription": "Take a break from the daily grind and rejuvenate at our Wellness Retreat Weekend. Enjoy a weekend of yoga, meditation, spa treatments, and healthy cuisine in a peaceful natural setting. Reconnect with your inner self, de-stress, and leave feeling renewed and revitalized."
   },
   {
     "id": 8,
-    "title": "Flexibility and Mobility",
-    "img": "flexibility_mobility.jpg",
-    "price": "$25 per session",
-    "details": "Increase flexibility and mobility to prevent injuries and improve performance.",
-    "more_details": "Our trainers will guide you through stretches and exercises to enhance your range of motion."
+    "eventName": "Fitness Expo 2023",
+    "img": "https://i.ibb.co/tQQFQxp/Fitness-Expo-2023.png",
+    "price": "$30 Admission",
+    "shortDescription": "Explore the world of fitness at Fitness Expo 2023.",
+    "detailedDescription": "Get inspired and motivated at Fitness Expo 2023. Discover the latest fitness trends, equipment, and expert insights. Participate in fitness challenges, attend workout classes, and meet fitness influencers. Whether you're a fitness enthusiast or just starting your fitness journey, this expo has something for everyone."
   },
   {
     "id": 9,
-    "title": "Mindfulness and Meditation",
-    "img": "mindfulness_meditation.jpg",
-    "price": "$15 per session",
-    "details": "Achieve mental clarity and relaxation with mindfulness and meditation sessions.",
-    "more_details": "Learn techniques to reduce stress, improve focus, and promote overall well-being."
+    "eventName": "Outdoor Yoga Retreat",
+    "img": "https://i.ibb.co/80L8RJj/Outdoor-Yoga-Retreat.jpg",
+    "price": "$299 for 3 Days",
+    "shortDescription": "Connect with nature and your inner self at our Outdoor Yoga Retreat.",
+    "detailedDescription": "Escape the city and immerse yourself in the beauty of nature at our Outdoor Yoga Retreat. Practice yoga amidst serene landscapes, go on nature hikes, and enjoy wholesome meals. This retreat offers a chance to deepen your yoga practice, find inner peace, and rejuvenate your body and soul."
   }
 ]
