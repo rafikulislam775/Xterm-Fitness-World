@@ -7,12 +7,12 @@ const Home = () => {
   return (
     <div>
       <Banner></Banner>
-      <div className="container mx-auto">
+      <div className="container m-auto">
         <div className="my-16">
           <h1 className="text-white text-3xl text-center uppercase">
             our services
           </h1>
-          <h1 className="text-white text-8xl text-center uppercase">
+          <h1 className="text-white md:text-8xl text-center uppercase">
             solutions for moving Better & feeling a healthier
           </h1>
         </div>
