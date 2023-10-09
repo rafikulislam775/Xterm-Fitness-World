@@ -1,6 +1,8 @@
 import { useLoaderData } from "react-router-dom";
 import Banner from "../../sections/banner/Banner";
 import Card from "../../sections/Services/Card";
+import Pricing from "../../sections/Pricing/Pricing";
+import Contact from "../../sections/Contact/Contact";
 
 const Home = () => {
   const data = useLoaderData();
@@ -22,6 +24,8 @@ const Home = () => {
           ))}
         </div>
       </div>
+      <Pricing></Pricing>
+      <Contact></Contact>
     </div>
   );
 };

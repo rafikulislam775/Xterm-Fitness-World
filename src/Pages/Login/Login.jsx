@@ -1,8 +1,9 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, Navigate, useLocation } from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
 
 const Login = () => {
   const { userLogin, user } = useAuth();
+  const location = useLocation();
   const handleLogin = (e) => {
     e.preventDefault();
 
@@ -63,12 +64,9 @@ const Login = () => {
                   </a>
                 </label> */}
               </div>
+              
               <div className="form-control mt-6">
-                {user ? (
-                  <button className="btn hover:btn-info ">Logout</button>
-                ) : (
-                  <button className="btn hover:btn-info ">login</button>
-                )}
+                <button className="btn hover:btn-info ">login</button>
 
                 <p className="text-sm my-4   font-light text-gray-500 dark:text-gray-400">
                   you have no account yet ?{" "}
