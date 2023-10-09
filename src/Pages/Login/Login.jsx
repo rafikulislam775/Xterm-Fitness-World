@@ -1,5 +1,6 @@
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
+import swal from "sweetalert";
 
 const Login = () => {
   const { userLogin, user } = useAuth();
@@ -17,8 +18,11 @@ const Login = () => {
       .then(() => {
         // navigate after login
         navigate(location?.state ? location.state : "/");
+        swal("Good job!", "now you are login successfully!", "success");
       })
-      .catch((err) => alert("something went wrong", err));
+      .catch(() =>
+        swal("Oops", "Something went wrong ! please try again", "error")
+      );
   };
   // console.log(user);
   return (

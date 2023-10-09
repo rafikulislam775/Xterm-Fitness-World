@@ -12,26 +12,61 @@ const Navbar = () => {
 
   const menus = (
     <>
-      <li>
-        <NavLink to="/">Home</NavLink>
+      <li className=" hover:btn-info hover:rounded-md ">
+        <NavLink
+          to="/"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "bg-cyan-500 " : ""
+          }
+        >
+          Home
+        </NavLink>
       </li>
-      <li>
-        <NavLink to="/services">Services</NavLink>
+      <li className=" hover:btn-info hover:rounded-md ">
+        <NavLink
+          to="/services"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "bg-cyan-500" : ""
+          }
+        >
+          Services
+        </NavLink>
       </li>
-      <li>
-        <NavLink to="/trainers">Trainers</NavLink>
+      <li className=" hover:btn-info hover:rounded-md ">
+        <NavLink
+          to="/contact"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "bg-cyan-500" : ""
+          }
+        >
+          Contact Us
+        </NavLink>
       </li>
-      <li>
+      <li className=" hover:btn-info hover:rounded-md ">
         {" "}
-        <NavLink to="/pricing">Pricing</NavLink>
+        <NavLink
+          to="/pricing"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "bg-cyan-500" : ""
+          }
+        >
+          Pricing
+        </NavLink>
       </li>
       {/* <li>
         {" "}
         <NavLink to="/login">Login</NavLink>
       </li> */}
-      <li>
+      <li className=" hover:btn-info hover:rounded-md ">
         {" "}
-        <NavLink to="/register">Register</NavLink>
+        <NavLink
+          to="/register"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "bg-cyan-500" : ""
+          }
+        >
+          Register
+        </NavLink>
       </li>
     </>
   );

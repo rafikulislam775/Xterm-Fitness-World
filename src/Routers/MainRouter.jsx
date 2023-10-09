@@ -6,6 +6,8 @@ import Home from "../Pages/Home/Home";
 import Details from "../sections/Services/Details";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
+import Pricing from "../sections/Pricing/Pricing";
+import Contact from "../sections/Contact/Contact";
 
 const MainRouter = createBrowserRouter([
   {
@@ -36,6 +38,14 @@ const MainRouter = createBrowserRouter([
       {
         path: "/register",
         element: <Register></Register>,
+      },
+      {
+        path: "/pricing",
+        element: <Pricing></Pricing>,
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>,
       },
     ],
   },
