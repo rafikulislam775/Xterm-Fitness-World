@@ -1,7 +1,9 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
 
 const Register = () => {
+  const location = useLocation();
+  const navigate = useNavigate();
   //call custom hook
   const { createUsers } = useAuth();
   const handleRegister = (e) => {
@@ -10,9 +12,14 @@ const Register = () => {
     const email = e?.target.email.value;
     const password = e?.target.password.value;
     createUsers(email, password)
-      .then((res) => console.log(res?.user))
-      .catch((error) => console.error(error?.message));
-    console.log(email, password);
+      // .then((res) => console.log(res?.user))
+      // .catch((error) => console.error(error?.message));
+      // console.log(email, password);
+      .then(() => {
+        // navigate after login
+        navigate(location?.state ? location.state : "/");
+      })
+      .catch((err) => alert("something went wrong", err));
   };
 
   return (

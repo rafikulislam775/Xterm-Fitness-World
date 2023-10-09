@@ -1,20 +1,26 @@
-import { NavLink, Navigate, useLocation } from "react-router-dom";
+import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
 
 const Login = () => {
   const { userLogin, user } = useAuth();
   const location = useLocation();
+  const navigate = useNavigate();
+
   const handleLogin = (e) => {
     e.preventDefault();
-
     const email = e?.target.email.value;
     const password = e?.target.password.value;
     userLogin(email, password)
-      .then((res) => console.log(res?.user))
-      .catch((error) => console.error(error?.message));
-    console.log(email, password);
+      // .then((res) => console.log(res?.user))
+      // .catch((error) => console.error(error?.message));
+      // console.log(email, password);
+      .then(() => {
+        // navigate after login
+        navigate(location?.state ? location.state : "/");
+      })
+      .catch((err) => alert("something went wrong", err));
   };
-  console.log(user);
+  // console.log(user);
   return (
     <div>
       <div
@@ -64,9 +70,13 @@ const Login = () => {
                   </a>
                 </label> */}
               </div>
-              
+
               <div className="form-control mt-6">
-                <button className="btn hover:btn-info ">login</button>
+                {user ? (
+                  <button className="btn hover:btn-info ">Logout</button>
+                ) : (
+                  <button className="btn hover:btn-info ">login</button>
+                )}
 
                 <p className="text-sm my-4   font-light text-gray-500 dark:text-gray-400">
                   you have no account yet ?{" "}
