@@ -8,6 +8,7 @@ import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
 import Pricing from "../sections/Pricing/Pricing";
 import Contact from "../sections/Contact/Contact";
+import About from "../sections/About/About";
 
 const MainRouter = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ const MainRouter = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact></Contact>,
+      },
+      {
+        path: "/about",
+        element: <About></About>,
       },
     ],
   },

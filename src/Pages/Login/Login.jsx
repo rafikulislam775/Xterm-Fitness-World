@@ -24,7 +24,6 @@ const Login = () => {
         swal("Oops", "Something went wrong ! please try again", "error")
       );
   };
-  // console.log(user);
   return (
     <div>
       <div

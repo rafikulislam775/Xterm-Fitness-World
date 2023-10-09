@@ -17,7 +17,9 @@ export default function ErrorPage() {
           <i>{error.statusText || error.message}</i>
         </p>
         <NavLink to="/">
-          <button className=" hover:btn-info btn ">Back to Home</button>
+          <button className=" mt-5 btn btn-outline btn-info btn-sm ">
+            Back to Home
+          </button>
         </NavLink>
       </div>
     </div>

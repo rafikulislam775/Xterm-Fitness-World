@@ -12,6 +12,16 @@ const Register = () => {
     // const name = e.target.name.value;
     const email = e?.target.email.value;
     const password = e?.target.password.value;
+    //regular expression for password validation
+    if (!/^(?=.*[A-Z]).{6,}$/.test(password)) {
+      swal(
+        "Oops",
+        "Password must be at least 6 characters long and contain at least one uppercase letter.",
+        "error"
+      );
+      return;
+    }
+
     createUsers(email, password)
       // .then((res) => console.log(res?.user))
       // .catch((error) => console.error(error?.message));
@@ -53,7 +63,7 @@ const Register = () => {
                 <input
                   type="text"
                   placeholder="Your name"
-                  className="input "
+                  className="input input-bordered"
                   name="name"
                   required
                 />
@@ -65,7 +75,7 @@ const Register = () => {
                 <input
                   type="email"
                   placeholder="email"
-                  className="input "
+                  className="input  input-bordered"
                   name="email"
                   required
                 />
@@ -77,7 +87,7 @@ const Register = () => {
                 <input
                   type="password"
                   placeholder="password"
-                  className="input "
+                  className="input input-bordered"
                   name="password"
                   required
                 />

@@ -9,6 +9,7 @@ import {
 } from "firebase/auth";
 
 export const AuthContext = createContext(null);
+
 const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   // add loading state

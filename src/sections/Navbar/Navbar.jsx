@@ -60,6 +60,17 @@ const Navbar = () => {
       <li className=" hover:btn-info hover:rounded-md ">
         {" "}
         <NavLink
+          to="/about"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "bg-cyan-500" : ""
+          }
+        >
+          About
+        </NavLink>
+      </li>
+      <li className=" hover:btn-info hover:rounded-md ">
+        {" "}
+        <NavLink
           to="/register"
           className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "bg-cyan-500" : ""
@@ -111,7 +122,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{menus}</ul>
         </div>
         <div className="navbar-end">
-          <button className="btn ">
+          <button className="btn btn-outline btn-info btn-sm  ">
             {user ? (
               <p onClick={handleSignOut}>logout</p>
             ) : (
